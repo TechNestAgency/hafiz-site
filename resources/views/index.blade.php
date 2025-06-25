@@ -13,7 +13,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Almajd-Academy</title>
+    <title>Hafiz-Academy</title>
 
     <meta name="description" content="" />
 
@@ -76,7 +76,7 @@
               <span class="app-brand-logo demo">
                 <img src="{{asset('logo.png')}}" style="width:50px">
               </span>
-                    <span class="app-brand-text demo menu-text fw-bold ms-2 ps-1">Almajd</span>
+                    <span class="app-brand-text demo menu-text fw-bold ms-2 ps-1">Hafiz</span>
                 </a>
             </div>
             <!-- Menu logo wrapper: End -->
@@ -114,6 +114,9 @@
                     <li class="nav-item">
                         <a class="nav-link fw-medium" href="#landingPricing">Pricing</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="#OurStudents">OurStudents</a>
+                    </li>
                 </ul>
             </div>
             <div class="landing-menu-overlay d-lg-none"></div>
@@ -140,29 +143,409 @@
 <div data-bs-spy="scroll" class="scrollspy-example">
     <!-- Hero: Start -->
     <section id="hero-animation">
-        <div id="landingHero" class="section-py landing-hero position-relative" style="height: 70vh;">
-            <div class="container">
-                <div class="hero-text-box text-center">
-                    <h1 class="text-primary hero-title display-4 fw-bold"> Learning the Qur'an and the Arabic language</h1>
-                    <h2 class="hero-sub-title h6 mb-4 pb-1">
-                        Top quality Quran courses online are available<br class="d-none d-lg-block" />
-                        at times convenient for you.
-                    </h2>
-                    <div class="landing-hero-btn d-inline-block position-relative">
-                <span class="hero-btn-item position-absolute d-none d-md-flex text-heading">Join community<img
-                      src="{{asset('assets/img/front-pages/icons/Join-community-arrow.png')}}"
-                      alt="Join community arrow"
-                      class="scaleX-n1-rtl"
-                  /></span>
-                        <a href="#landingContact" class="btn btn-primary">Start Enroll Now </a>
+        <div id="landingHero" class="section-py landing-hero position-relative" style="min-height: 100vh; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); overflow: hidden;">
+            <!-- Animated background elements -->
+            <div class="position-absolute w-100 h-100" style="top: 0; left: 0; z-index: 1;">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                    <div class="shape shape-4"></div>
+                    <div class="shape shape-5"></div>
+                </div>
+            </div>
+            
+            <div class="container position-relative" style="z-index: 2;">
+                <div class="row align-items-center min-vh-100">
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <div class="hero-content">
+                            <!-- Badge -->
+                            <div class="mb-4">
+                                <span class="badge bg-white bg-opacity-20 text-white px-4 py-2 rounded-pill" style="backdrop-filter: blur(10px);">
+                                    <i class="bx bx-star me-2"></i><p style="color: black;">Trusted by 1000+ Students Worldwide</p>
+                                </span>
+                            </div>
+                            
+                            <!-- Main Title -->
+                            <h1 class="display-3 fw-bold text-white mb-4" style="line-height: 1.2; text-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+                                Master the <span class="text-warning">Qur'an</span> & <span class="text-warning">Arabic</span> Language
+                            </h1>
+                            
+                            <!-- Subtitle -->
+                            <p class="lead text-white-50 mb-5" style="font-size: 1.25rem; line-height: 1.6;">
+                                Join our world-class online academy where expert teachers guide you through Quranic studies, 
+                                Arabic language mastery, and Islamic education with personalized learning experiences.
+                            </p>
+                            
+                            <!-- CTA Buttons -->
+                            <div class="hero-buttons d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
+                                <a href="#landingContact" class="btn btn-warning btn-lg px-5 py-3 fw-bold shadow-lg" style="border-radius: 50px; transition: all 0.3s ease;">
+                                    <i class="bx bx-play-circle me-2"></i>Start Free Trial
+                                </a>
+                                <a href="#landingCourses" class="btn btn-outline-light btn-lg px-5 py-3 fw-bold" style="border-radius: 50px; border-width: 2px; transition: all 0.3s ease;">
+                                    <i class="bx bx-book-open me-2"></i>Explore Courses
+                                </a>
+                            </div>
+                            
+                            <!-- Stats -->
+                            <div class="row mt-5 pt-4">
+                                <div class="col-4 text-center">
+                                    <div class="stat-item">
+                                        <h3 class="text-white fw-bold mb-1" style="font-size: 2rem;">50K+</h3>
+                                        <p class="text-white-50 mb-0 small">Hours Taught</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <div class="stat-item">
+                                        <h3 class="text-white fw-bold mb-1" style="font-size: 2rem;">1K+</h3>
+                                        <p class="text-white-50 mb-0 small">Students</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <div class="stat-item">
+                                        <h3 class="text-white fw-bold mb-1" style="font-size: 2rem;">24/7</h3>
+                                        <p class="text-white-50 mb-0 small">Support</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 text-center">
+                        <div class="hero-visual mt-5 mt-lg-0">
+                            <div class="position-relative">
+                                <!-- Main visual element -->
+                                <div class="hero-card bg-white bg-opacity-10 p-4 rounded-4" style="backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.2); background-image: url('{{asset('quran.jpg')}}'); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative; min-height: 400px;">
+                                    <!-- Overlay for better text readability -->
+                                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.4); border-radius: 1rem;"></div>
+                                    <div class="text-center position-relative" style="z-index: 2;">
+                                        <div class="mb-4">
+                                            <i class="bx bx-book-open text-warning" style="font-size: 4rem;"></i>
+                                        </div>
+                                        <h4 class="text-white mb-3">Interactive Learning</h4>
+                                        <p class="text-white-50 mb-0">Experience modern Quranic education with our advanced digital platform</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- Floating elements -->
+                                <div class="floating-icon floating-icon-1">
+                                    <i class="bx bx-mic text-warning"></i>
+                                </div>
+                                <div class="floating-icon floating-icon-2">
+                                    <i class="bx bx-video text-info"></i>
+                                </div>
+                                <div class="floating-icon floating-icon-3">
+                                    <i class="bx bx-chat text-success"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div id="heroDashboardAnimation" class="hero-animation-img">
+            </div>
+            
+            <!-- Scroll indicator -->
+            <div class="position-absolute bottom-0 start-50 translate-middle-x mb-4" style="z-index: 3;">
+                <div class="scroll-indicator">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div class="arrow"></div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Hero: End -->
+
+    <style>
+        /* Floating shapes animation */
+        .floating-shapes {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .shape {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        .shape-1 {
+            width: 80px;
+            height: 80px;
+            top: 20%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+        
+        .shape-2 {
+            width: 120px;
+            height: 120px;
+            top: 60%;
+            right: 10%;
+            animation-delay: 2s;
+        }
+        
+        .shape-3 {
+            width: 60px;
+            height: 60px;
+            top: 40%;
+            right: 20%;
+            animation-delay: 4s;
+        }
+        
+        .shape-4 {
+            width: 100px;
+            height: 100px;
+            bottom: 20%;
+            left: 20%;
+            animation-delay: 1s;
+        }
+        
+        .shape-5 {
+            width: 40px;
+            height: 40px;
+            top: 80%;
+            right: 30%;
+            animation-delay: 3s;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+        
+        /* Floating icons */
+        .floating-icon {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+            animation: floatIcon 4s ease-in-out infinite;
+        }
+        
+        .floating-icon i {
+            font-size: 1.5rem;
+        }
+        
+        .floating-icon-1 {
+            top: -30px;
+            right: -30px;
+            animation-delay: 0s;
+        }
+        
+        .floating-icon-2 {
+            bottom: -30px;
+            left: -30px;
+            animation-delay: 2s;
+        }
+        
+        .floating-icon-3 {
+            top: 50%;
+            right: -40px;
+            animation-delay: 4s;
+        }
+        
+        .floating-icon-4 {
+            top: 20%;
+            left: -40px;
+            animation-delay: 1s;
+        }
+        
+        .floating-icon-5 {
+            bottom: 20%;
+            right: -50px;
+            animation-delay: 3s;
+        }
+        
+        @keyframes floatIcon {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        /* Enhanced floating icon content */
+        .icon-content {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+        }
+        
+        /* Pulse ring animation */
+        .pulse-ring {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 2px solid currentColor;
+            border-radius: 50%;
+            opacity: 0;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1.5);
+                opacity: 0;
+            }
+        }
+        
+        /* Icon items hover effects */
+        .icon-item {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .icon-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        
+        /* Feature items styling */
+        .feature-item {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-item:hover {
+            transform: translateX(5px);
+        }
+        
+        /* Islamic quote styling */
+        .islamic-quote {
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .islamic-quote::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 193, 7, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
+        
+        .islamic-quote:hover::before {
+            left: 100%;
+        }
+        
+        /* Activity cards hover effects */
+        .activity-card {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .activity-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        /* Achievement badge animation */
+        .achievement-badge {
+            animation: badgeGlow 3s ease-in-out infinite;
+        }
+        
+        @keyframes badgeGlow {
+            0%, 100% { 
+                transform: scale(1);
+                box-shadow: 0 0 10px rgba(220, 53, 69, 0.5);
+            }
+            50% { 
+                transform: scale(1.05);
+                box-shadow: 0 0 20px rgba(220, 53, 69, 0.8);
+            }
+        }
+        
+        /* Scroll indicator */
+        .scroll-indicator {
+            text-align: center;
+        }
+        
+        .mouse {
+            width: 30px;
+            height: 50px;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            border-radius: 15px;
+            margin: 0 auto 10px;
+            position: relative;
+        }
+        
+        .wheel {
+            width: 4px;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 2px;
+            position: absolute;
+            top: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: scroll 2s infinite;
+        }
+        
+        @keyframes scroll {
+            0% { transform: translateX(-50%) translateY(0); opacity: 1; }
+            100% { transform: translateX(-50%) translateY(20px); opacity: 0; }
+        }
+        
+        .arrow {
+            width: 20px;
+            height: 20px;
+            border-right: 2px solid rgba(255, 255, 255, 0.5);
+            border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+            transform: rotate(45deg);
+            margin: 0 auto;
+            animation: arrow 2s infinite;
+        }
+        
+        @keyframes arrow {
+            0% { opacity: 0; transform: rotate(45deg) translate(-5px, -5px); }
+            50% { opacity: 1; }
+            100% { opacity: 0; transform: rotate(45deg) translate(5px, 5px); }
+        }
+        
+        /* Button hover effects */
+        .btn-warning:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(255, 193, 7, 0.4) !important;
+        }
+        
+        .btn-outline-light:hover {
+            transform: translateY(-2px);
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .hero-content h1 {
+                font-size: 2.5rem !important;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .hero-buttons .btn {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
 
     <!-- Useful features: Start -->
     <section id="landingFeatures" class="section-py landing-features">
@@ -222,10 +605,10 @@
                 </div>
                 <div class="col-lg-4 col-sm-6 text-center features-icon-box">
                     <div class="text-center mb-3">
-                        <img src="{{asset('woman.png')}}" alt="google docs" style="width:70px"/>
+                        <img src="{{asset('couple.png')}}" alt="google docs" style="width:70px"/>
                     </div>
-                    <h5 class="mb-3">Female Tutors</h5>
-                    <p class="features-icon-description">Experienced Female Quran Tutors at our academy for sisters who are comfortable with learning from females only.</p>
+                    <h5 class="mb-3">Males&Females Tutors</h5>
+                    <p class="features-icon-description">Experienced Male and Female Quran Tutors at our academy, offering options for both brothers and sisters who prefer learning from tutors of the same gender.</p>
                 </div>
             </div>
         </div>
@@ -263,8 +646,8 @@
                                     <div class="card h-100">
                                         <div class="card-body text-body d-flex flex-column justify-content-between h-100">
                                             <p class="text-center">
-                                                “I've tried various online platforms to learn Quran and Arabic, but none have compared to the experience I've had at this academy. The curriculum is well-structured and the
-                                                instructors are highly qualified.”
+                                                "I've tried various online platforms to learn Quran and Arabic, but none have compared to the experience I've had at this academy. The curriculum is well-structured and the
+                                                instructors are highly qualified."
                                             </p>
                                             <div class="text-warning d-flex align-items-center mb-3 justify-content-center">
                                                 <i class="bx bxs-star bx-sm"></i>
@@ -392,7 +775,7 @@
                             <img src="{{asset('6.png')}}" alt="laptop" class="mb-2" style="width:70px"/>
                             <h5 class="h2 mb-1">Quran</h5>
                             <p class="fw-medium mb-0">
-                                you can learn how to memorise the Holy Qur’an and become a Hafiz/Hafiz of the Qur’an.
+                                you can learn how to memorise the Holy Qur'an and become a Hafiz/Hafiz of the Qur'an.
                             </p><br>
                             <a href="#" class="btn btn-primary">Enroll Now</a>
                         </div>
@@ -968,7 +1351,7 @@
                                         <div>
                                             <p class="mb-0">Email</p>
                                             <h5 class="mb-0">
-                                                <a href="mailto:elmajd1000@gmail.com" class="text-heading">elmajd1000@gmail.com</a>
+                                                <a href="mailto:elmajd1000@gmail.com" class="text-heading">nehadeid530@gmail.com</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -980,7 +1363,7 @@
                                         </div>
                                         <div>
                                             <p class="mb-0">Phone</p>
-                                            <h5 class="mb-0"><a href="tel:+1234-568-963" class="text-heading">+201554134201</a></h5>
+                                            <h5 class="mb-0"><a href="tel:+1234-568-963" class="text-heading">+201017662671</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -1035,12 +1418,9 @@
                                     <div class="col-md-4">
                                         <label class="form-label" for="contact-form-fullname">Course Title </label>
                                         <select type="number" class="form-control" required name="course" id="contact-form-fullname">
-                                            <option value="male">QURAN</option>
-                                            <option value="fiqh">FIQH</option>
-                                            <option value="aqeedah">AQEEDAH</option>
-                                            <option value="tajweed">TAJWEED</option>
-                                            <option value="hadith">HADITH</option>
-                                            <option value="arabic">ARABIC</option>
+                                            <option value="Quran with tajweed">Quran with tajweed</option>
+                                            <option value="Arabic">Arabic</option>
+                                            <option value="Islamic studies">Islamic studies</option>
                                         </select>
                                     </div>
 
@@ -1115,7 +1495,202 @@
         </script>
     </section>
     <!-- Contact Us: End -->
+
+    <!-- FAQ: Start -->
+    <section id="OurStudents" class="section-py bg-body landing-faq">
+        <div class="container">
+            <div class="text-center mb-3 pb-1">
+                <span class="badge bg-label-primary">Our Students Sessions</span>
+            </div>
+            <h3 class="text-center mb-1">Live Sessions With Our Students And Teachers</h3>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                    <div>
+                        <div class="card">
+                            <video width="320" height="240" controls>
+                                <source src="{{ asset('1.mp4') }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body text-center">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal1">
+                                    Watch Video
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="videoModal1" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="videoModalLabel">Hafiz Academy Sessions</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Local Video -->
+                                        <div class="ratio ratio-16x9">
+                                            <video width="320" height="240" controls>
+                                                <source src="{{ asset('1.mp4') }}" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                    <div>
+                        <div class="card">
+                            <video width="320" height="240" controls>
+                                <source src="{{ asset('2.mp4') }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body text-center">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal2">
+                                    Watch Video
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="videoModal2" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="videoModalLabel">Hafiz Academy Sessions</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Local Video -->
+                                        <div class="ratio ratio-16x9">
+                                            <video width="320" height="240" controls>
+                                                <source src="{{ asset('2.mp4') }}" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                    <div>
+                        <div class="card">
+                            <video width="320" height="240" controls>
+                                <source src="{{ asset('3.mp4') }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body text-center">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal3">
+                                    Watch Video
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="videoModal3" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="videoModalLabel">Hafiz Academy Sessions</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Local Video -->
+                                        <div class="ratio ratio-16x9">
+                                            <video width="320" height="240" controls>
+                                                <source src="{{ asset('3.mp4') }}" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                    <div>
+                        <div class="card">
+                            <video width="320" height="240" controls>
+                                <source src="{{ asset('4.mp4') }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body text-center">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal4">
+                                    Watch Video
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="videoModal4" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="videoModalLabel">Hafiz Academy Sessions</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Local Video -->
+                                        <div class="ratio ratio-16x9">
+                                            <video width="320" height="240" controls>
+                                                <source src="{{ asset('4.mp4') }}" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                    <div>
+                        <div class="card">
+                            <video width="320" height="240" controls>
+                                <source src="{{ asset('5.mp4') }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body text-center">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal5">
+                                    Watch Video
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="videoModal5" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="videoModalLabel">Hafiz Academy Sessions</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Local Video -->
+                                        <div class="ratio ratio-16x9">
+                                            <video width="320" height="240" controls>
+                                                <source src="{{ asset('5.mp4') }}" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ: End -->
 </div>
+
+<script>
+    $('#videoModal1').on('hide.bs.modal', function (e) {
+        var video = $("video")[0]; // assuming you have only one video on the page
+        video.pause();
+    });
+</script>
 
 <!-- / Sections:End -->
 
@@ -1129,10 +1704,10 @@
                 <span class="app-brand-logo demo">
                     <img src="{{asset('logo.png')}}" width="50px">
                 </span>
-                        <span class="app-brand-text demo footer-link fw-bold ms-2 ps-1">Almajd</span>
+                        <span class="app-brand-text demo footer-link fw-bold ms-2 ps-1">Hafiz</span>
                     </a>
                     <p class="footer-text footer-logo-description mb-4">
-                        Established 4 years ago, have many student from around the world.
+                        Established 6 years ago, have many student from around the world.
                     </p>
                     <a class="btn btn-primary shadow-none rounded-0 rounded-end-bottom rounded-end-top" href="#Enroll">Enroll Now</a>
                 </div>
@@ -1164,10 +1739,13 @@
                             <a href="#FeedBack" class="footer-link">FeedBack</a>
                         </li>
                         <li class="mb-3">
-                            <a href="help-center-landing.html" class="footer-link">Courses</a>
+                            <a href="#landingCourses" class="footer-link">Courses</a>
                         </li>
                         <li class="mb-3">
                             <a href="#landingFeatures" class="footer-link">Features</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#OurStudents" class="footer-link">OurStudents</a>
                         </li>
                     </ul>
                 </div>
@@ -1184,7 +1762,7 @@
                 document.write(new Date().getFullYear());
               </script>
             </span>
-                <a href="https://pixinvent.com" target="_blank" class="fw-medium text-white footer-link">Almajd Academy</a>
+                <a href="https://www.facebook.com/profile.php?id=61571489512337" target="_blank" class="fw-medium text-white footer-link">Created By Tech-Nest Agency</a>
             </div>
         </div>
     </div>
