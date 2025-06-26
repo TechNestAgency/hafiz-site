@@ -830,7 +830,7 @@
             </div>
             <h3 class="text-center mb-1"><span class="section-title">Packages</span></h3>
             <div class="row gy-4 pt-lg-3">
-                <!-- Basic Plan: Start -->
+                <!-- Package 1: Start -->
                 <div class="col-xl-4 col-lg-6">
                     <div class="card">
                         <div class="card-header">
@@ -841,8 +841,8 @@
                                     class="mb-4 pb-2 scaleX-n1-rtl" />
                                 <h4 class="mb-1">Package 1</h4>
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <span class="price-monthly h1 text-primary fw-bold mb-0">5.25 pounds</span>
-                                    <sub class="h6 text-muted mb-0 ms-1">/week</sub>
+                                    <span class="price-monthly h1 text-primary fw-bold mb-0">25 pounds</span>
+                                    <sub class="h6 text-muted mb-0 ms-1">/month</sub>
                                 </div>
                             </div>
                         </div>
@@ -869,7 +869,7 @@
                         <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
                         ><i class="bx bx-check bx-xs"></i
                             ></span>
-                                        3 days/week
+                                        8 Classes
                                     </h5>
                                 </li>
                             </ul>
@@ -879,8 +879,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- Basic Plan: End -->
-                <!-- Basic Plan: Start -->
+                <!-- Package 1: End -->
+                <!-- Package 2: Start -->
                 <div class="col-xl-4 col-lg-6">
                     <div class="card">
                         <div class="card-header">
@@ -891,8 +891,8 @@
                                     class="mb-4 pb-2 scaleX-n1-rtl" />
                                 <h4 class="mb-1">Package 2</h4>
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <span class="price-monthly h1 text-primary fw-bold mb-0">7 pounds</span>
-                                    <sub class="h6 text-muted mb-0 ms-1">/week</sub>
+                                    <span class="price-monthly h1 text-primary fw-bold mb-0">30 pounds</span>
+                                    <sub class="h6 text-muted mb-0 ms-1">/month</sub>
                                 </div>
                             </div>
                         </div>
@@ -911,7 +911,7 @@
                         <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
                         ><i class="bx bx-check bx-xs"></i
                             ></span>
-                                        30 minutes/class
+                                        1 hour/class
                                     </h5>
                                 </li>
                                 <li>
@@ -919,7 +919,7 @@
                         <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
                         ><i class="bx bx-check bx-xs"></i
                             ></span>
-                                        4 days/week
+                                        5 Classes
                                     </h5>
                                 </li>
                             </ul>
@@ -929,7 +929,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- Basic Plan: End -->
+                <!-- Package 2: End -->
+                <!-- Package 3: Start -->
                 <div class="col-xl-4 col-lg-6">
                     <div class="card">
                         <div class="card-header">
@@ -940,8 +941,8 @@
                                     class="mb-4 pb-2 scaleX-n1-rtl" />
                                 <h4 class="mb-1">Package 3</h4>
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <span class="price-monthly h1 text-primary fw-bold mb-0">8.75 pounds</span>
-                                    <sub class="h6 text-muted mb-0 ms-1">/week</sub>
+                                    <span class="price-monthly h1 text-primary fw-bold mb-0">40 pounds</span>
+                                    <sub class="h6 text-muted mb-0 ms-1">/month</sub>
                                 </div>
                             </div>
                         </div>
@@ -960,7 +961,7 @@
                         <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
                         ><i class="bx bx-check bx-xs"></i
                             ></span>
-                                        30 minutes/class
+                                        1 hour/class
                                     </h5>
                                 </li>
                                 <li>
@@ -968,7 +969,7 @@
                         <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
                         ><i class="bx bx-check bx-xs"></i
                             ></span>
-                                        5 days/week
+                                        7 Classes
                                     </h5>
                                 </li>
                             </ul>
@@ -978,151 +979,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="text-center">
-                                <img
-                                    src="{{asset('assets/img/front-pages/icons/paper-airplane.png')}}"
-                                    alt="paper airplane icon"
-                                    class="mb-4 pb-2 scaleX-n1-rtl" />
-                                <h4 class="mb-1">Package 4</h4>
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <span class="price-monthly h1 text-primary fw-bold mb-0">7 pounds</span>
-                                    <sub class="h6 text-muted mb-0 ms-1">/week</sub>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <h5>
-                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
-                        ><i class="bx bx-check bx-xs"></i
-                            ></span>
-                                        Free Trial
-                                    </h5>
-                                </li>
-                                <li>
-                                    <h5>
-                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
-                        ><i class="bx bx-check bx-xs"></i
-                            ></span>
-                                        60 minutes/class
-                                    </h5>
-                                </li>
-                                <li>
-                                    <h5>
-                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
-                        ><i class="bx bx-check bx-xs"></i
-                            ></span>
-                                        2 days/week
-                                    </h5>
-                                </li>
-                            </ul>
-                            <div class="d-grid mt-4 pt-3">
-                                <a href="#Enroll" class="btn btn-label-primary">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="text-center">
-                                <img
-                                    src="{{asset('assets/img/front-pages/icons/paper-airplane.png')}}"
-                                    alt="paper airplane icon"
-                                    class="mb-4 pb-2 scaleX-n1-rtl" />
-                                <h4 class="mb-1">Package 5</h4>
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <span class="price-monthly h1 text-primary fw-bold mb-0">10.50 pounds</span>
-                                    <sub class="h6 text-muted mb-0 ms-1">/week</sub>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <h5>
-                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
-                        ><i class="bx bx-check bx-xs"></i
-                            ></span>
-                                        Free Trial
-                                    </h5>
-                                </li>
-                                <li>
-                                    <h5>
-                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
-                        ><i class="bx bx-check bx-xs"></i
-                            ></span>
-                                        60 minutes/class
-                                    </h5>
-                                </li>
-                                <li>
-                                    <h5>
-                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
-                        ><i class="bx bx-check bx-xs"></i
-                            ></span>
-                                        3 days/week
-                                    </h5>
-                                </li>
-                            </ul>
-                            <div class="d-grid mt-4 pt-3">
-                                <a href="#Enroll" class="btn btn-label-primary">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="text-center">
-                                <img
-                                    src="{{asset('assets/img/front-pages/icons/paper-airplane.png')}}"
-                                    alt="paper airplane icon"
-                                    class="mb-4 pb-2 scaleX-n1-rtl" />
-                                <h4 class="mb-1">Package 6</h4>
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <span class="price-monthly h1 text-primary fw-bold mb-0">14 pounds</span>
-                                    <sub class="h6 text-muted mb-0 ms-1">/week</sub>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <h5>
-                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
-                        ><i class="bx bx-check bx-xs"></i
-                            ></span>
-                                        Free Trial
-                                    </h5>
-                                </li>
-                                <li>
-                                    <h5>
-                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
-                        ><i class="bx bx-check bx-xs"></i
-                            ></span>
-                                        60 minutes/class
-                                    </h5>
-                                </li>
-                                <li>
-                                    <h5>
-                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
-                        ><i class="bx bx-check bx-xs"></i
-                            ></span>
-                                        4 days/week
-                                    </h5>
-                                </li>
-                            </ul>
-                            <div class="d-grid mt-4 pt-3">
-                                <a href="#Enroll" class="btn btn-label-primary">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                <!-- Package 3: End -->
             </div>
         </div>
     </section>
@@ -1508,7 +1365,7 @@
                     <div>
                         <div class="card">
                             <video width="320" height="240" controls>
-                                <source src="{{ asset('1.mp4') }}" type="video/mp4">
+                                <source src="{{ asset('new_1.mp4') }}" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <div class="card-body text-center">
@@ -1529,7 +1386,7 @@
                                         <!-- Local Video -->
                                         <div class="ratio ratio-16x9">
                                             <video width="320" height="240" controls>
-                                                <source src="{{ asset('1.mp4') }}" type="video/mp4">
+                                                <source src="{{ asset('new_1.mp4') }}" type="video/mp4">
                                                 Your browser does not support the video tag.
                                             </video>
                                         </div>
@@ -1543,7 +1400,7 @@
                     <div>
                         <div class="card">
                             <video width="320" height="240" controls>
-                                <source src="{{ asset('2.mp4') }}" type="video/mp4">
+                                <source src="{{ asset('new_2.mp4') }}" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <div class="card-body text-center">
@@ -1564,7 +1421,7 @@
                                         <!-- Local Video -->
                                         <div class="ratio ratio-16x9">
                                             <video width="320" height="240" controls>
-                                                <source src="{{ asset('2.mp4') }}" type="video/mp4">
+                                                <source src="{{ asset('new_2.mp4') }}" type="video/mp4">
                                                 Your browser does not support the video tag.
                                             </video>
                                         </div>
@@ -1578,7 +1435,7 @@
                     <div>
                         <div class="card">
                             <video width="320" height="240" controls>
-                                <source src="{{ asset('3.mp4') }}" type="video/mp4">
+                                <source src="{{ asset('new_3.mp4') }}" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <div class="card-body text-center">
@@ -1599,7 +1456,7 @@
                                         <!-- Local Video -->
                                         <div class="ratio ratio-16x9">
                                             <video width="320" height="240" controls>
-                                                <source src="{{ asset('3.mp4') }}" type="video/mp4">
+                                                <source src="{{ asset('new_3.mp4') }}" type="video/mp4">
                                                 Your browser does not support the video tag.
                                             </video>
                                         </div>
@@ -1613,7 +1470,7 @@
                     <div>
                         <div class="card">
                             <video width="320" height="240" controls>
-                                <source src="{{ asset('4.mp4') }}" type="video/mp4">
+                                <source src="{{ asset('new_4.mp4') }}" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <div class="card-body text-center">
@@ -1634,7 +1491,7 @@
                                         <!-- Local Video -->
                                         <div class="ratio ratio-16x9">
                                             <video width="320" height="240" controls>
-                                                <source src="{{ asset('4.mp4') }}" type="video/mp4">
+                                                <source src="{{ asset('new_4.mp4') }}" type="video/mp4">
                                                 Your browser does not support the video tag.
                                             </video>
                                         </div>
