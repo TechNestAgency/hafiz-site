@@ -51,6 +51,18 @@
 </head>
 
 <body>
+<!-- Floating WhatsApp Button -->
+<div class="floating-whatsapp">
+    <a href="https://wa.me/201017662671?text=Hello! I'm interested in learning Quran and Arabic at Hafiz Academy. Can you provide more information?" target="_blank" class="whatsapp-link">
+        <div class="whatsapp-icon">
+            <i class="bx bxl-whatsapp"></i>
+        </div>
+        <div class="whatsapp-tooltip">
+            Message us on WhatsApp
+        </div>
+    </a>
+</div>
+
 <script src="{{asset('assets/vendor/js/dropdown-hover.js')}}"></script>
 <script src="{{asset('assets/vendor/js/mega-dropdown.js')}}"></script>
 
@@ -543,6 +555,111 @@
             .hero-buttons .btn {
                 width: 100%;
                 max-width: 300px;
+            }
+        }
+        
+        /* Floating WhatsApp Button Styles */
+        .floating-whatsapp {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        
+        .whatsapp-link {
+            display: block;
+            text-decoration: none;
+            position: relative;
+        }
+        
+        .whatsapp-icon {
+            width: 60px;
+            height: 60px;
+            background: #25d366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s ease;
+            animation: whatsappPulse 2s infinite;
+        }
+        
+        .whatsapp-icon i {
+            font-size: 28px;
+            color: white;
+        }
+        
+        .whatsapp-tooltip {
+            position: absolute;
+            right: 70px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #333;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            white-space: nowrap;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        
+        .whatsapp-tooltip::after {
+            content: '';
+            position: absolute;
+            right: -5px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-left: 5px solid #333;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+        }
+        
+        .floating-whatsapp:hover .whatsapp-tooltip {
+            opacity: 1;
+            visibility: visible;
+            right: 80px;
+        }
+        
+        .floating-whatsapp:hover .whatsapp-icon {
+            transform: scale(1.1);
+            box-shadow: 0 6px 25px rgba(37, 211, 102, 0.6);
+        }
+        
+        @keyframes whatsappPulse {
+            0% {
+                box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            }
+            50% {
+                box-shadow: 0 4px 20px rgba(37, 211, 102, 0.8);
+            }
+            100% {
+                box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            }
+        }
+        
+        /* Mobile responsive adjustments */
+        @media (max-width: 768px) {
+            .floating-whatsapp {
+                bottom: 20px;
+                right: 20px;
+            }
+            
+            .whatsapp-icon {
+                width: 50px;
+                height: 50px;
+            }
+            
+            .whatsapp-icon i {
+                font-size: 24px;
+            }
+            
+            .whatsapp-tooltip {
+                display: none;
             }
         }
     </style>
