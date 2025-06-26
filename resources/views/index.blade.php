@@ -1361,7 +1361,41 @@
             </div>
             <h3 class="text-center mb-1">Live Sessions With Our Students And Teachers</h3>
             <div class="row">
-                
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                    <div>
+                        <div class="card">
+                            <video width="320" height="240" controls>
+                                <source src="{{ asset('new_1.mp4') }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body text-center">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal2">
+                                    Watch Video
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="videoModal2" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="videoModalLabel">Hafiz Academy Sessions</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Local Video -->
+                                        <div class="ratio ratio-16x9">
+                                            <video width="320" height="240" controls>
+                                                <source src="{{ asset('new_2.mp4') }}" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 p-2">
                     <div>
                         <div class="card">
